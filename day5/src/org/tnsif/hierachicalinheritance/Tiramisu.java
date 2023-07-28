@@ -1,12 +1,8 @@
 package org.tnsif.hierachicalinheritance;
 
 public class Tiramisu extends Android {
-	public Tiramisu(String brand, String slotType, int version) {
-		super(brand, slotType);
-		this.version=version;
-	}
-
 	private int version;
+
 
 	public int getVersion() {
 		return version;
@@ -20,6 +16,12 @@ public class Tiramisu extends Android {
 	public String toString() {
 		return "Tiramisu [version=" + version + ", toString()=" + super.toString() + "]";
 	}
+	
+	public Tiramisu(String brand, String slotType, int version) {
+		super(brand, slotType);
+		this.version=version;
+	}
+
 	
 	
 	

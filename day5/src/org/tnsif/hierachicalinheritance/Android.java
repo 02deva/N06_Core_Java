@@ -21,7 +21,6 @@ public class Android {
 		return "Android [Brand=" + Brand + ", slotType=" + slotType + ", toString()=" + super.toString() + "]";
 	}
 	public Android(String brand, String slotType) {
-		super();
 		this.Brand = brand;
 		this.slotType = slotType;
 	}

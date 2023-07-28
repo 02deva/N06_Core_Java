@@ -35,8 +35,8 @@ public class Manager {
 	// parameterized constructor
 	public Manager(String departmentNmae, String nameofManager, int empId) {
 		super();
-		DepartmentNmae = departmentNmae;
-		NameofManager = nameofManager;
+		this.DepartmentNmae = departmentNmae;
+		this.NameofManager = nameofManager;
 		this.empId = empId;
 	}
 	
