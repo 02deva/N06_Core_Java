@@ -1,5 +1,4 @@
 package org.tnsif.hierachicalinheritance;
-
 public class Tiramisu extends Android {
 	private int version;
 
@@ -16,7 +15,7 @@ public class Tiramisu extends Android {
 	public String toString() {
 		return "Tiramisu [version=" + version + ", toString()=" + super.toString() + "]";
 	}
-	
+	// parameterized constructor 
 	public Tiramisu(String brand, String slotType, int version) {
 		super(brand, slotType);
 		this.version=version;
